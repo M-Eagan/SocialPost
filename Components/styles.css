@@ -1,0 +1,41 @@
+* {
+    background-color: #EEEFF1;
+}
+
+.site-container {
+    display: flex;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    color: #26C6F7;
+    display: flex;
+    justify-content: center;
+    width: 300vw;
+    height: 300vh;
+    font-size: 70px;
+}
+
+.new-thought {
+    font-family: 'Niramit', sans-serif;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 25vh;
+}
+
+.post-container {
+    font-family: 'Niramit', sans-serif;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+
+/* font-family: 'Cedarville Cursive', cursive;
+font-family: 'Niramit', sans-serif; */
