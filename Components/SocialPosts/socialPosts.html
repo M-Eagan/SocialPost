@@ -1,0 +1,17 @@
+<div class="site-container">
+
+
+<div ng-if="!$ctrl.hide">
+    <button class="new-thought" ng-click="$ctrl.openForm()">New Thought</button>
+
+<div class="post-container" ng-init="post=[]">
+    <ul>
+        <li ng-repeat="post in $ctrl.post" item="post"></li>
+    </ul>
+
+</div>
+
+<post-form on-submit="$ctrl.addPost" ng-if="$ctrl.show"></post-form>
+</div>
+
+</div>
