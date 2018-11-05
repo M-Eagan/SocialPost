@@ -22,12 +22,12 @@
             $ctrl.addPost = function(addPost) {
                 $ctrl.posts.unshift(addPost);
                 $ctrl.show = false;
-                $ctrl.hide = false;
+                // $ctrl.hide = false;
             }
 
             $ctrl.openForm = function() {
                 $ctrl.show = true;
-                $ctrl.hide = true;
+                // $ctrl.hide = true;
             }
         });
 }

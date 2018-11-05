@@ -3,7 +3,7 @@
 {
     angular.module("app")
         .component('posts', {
-            controller: "postController",
+            controller: "socialPostController",
             templateUrl: 'Components/posts/posts.html',
             bindings: {
                 item: '<',

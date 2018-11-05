@@ -2,7 +2,7 @@
 
 {
     angular.module("app")
-        .component('socialposts', {
+        .component('socialPosts', {
             controller: "socialPostController",
             templateUrl: 'Components/SocialPosts/socialPosts.html'
         })
